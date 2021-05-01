@@ -5,6 +5,8 @@ public class Demo {
         if(flag){
             System.out.println("I am covered");
             return;
+        }else{
+            System.out.println("I am uncovered");
         }
 
         System.out.println("I am not covered");
